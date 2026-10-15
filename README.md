@@ -30,75 +30,33 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global game engine and real-time development software market is estimated at approximately **$3.6B to $4.4B** (scaling past $38B+ when factoring broader simulation and enterprise visual tech). The market structure exhibits a dual dynamic: it is **heavily concentrated at the top**—dominated by an oligopoly (Unity and Epic Games) capturing massive industry revenue and game volume—while remaining **moderately fragmented across the mid and lower tiers**, where a vibrant ecosystem of specialized 2D tools, web/HTML5 runtimes, and community-driven open-source alternatives thrive.
 
 
 
 ## SaaS/Hosted Platforms
 
-- **[Construct 3](https://www.construct.net/)**  
-
-  Browser-based, event-sheet driven 2D game engine popular for rapid development, education, and publishing to web, desktop, and mobile without traditional coding.
-
-
-
-- **[GameMaker](https://gamemaker.io/)**  
-
-  Long-standing 2D game engine with its own language (GML), strong 2D tooling, and export options for multiple platforms—widely used by indie developers.
-
-
-
-- **[PlayCanvas](https://playcanvas.com/)**  
-
-  Web-first 3D/2D engine and collaborative online editor with strong WebGL performance; the engine core is open-source while the hosted editor and services are commercial.
-
-
-
-- **[Cocos Creator](https://www.cocos.com/en/creator)**  
-
-  Component-based game engine (2D & 3D) popular in Asia and globally, with visual editor, JavaScript/TypeScript workflow, and multi-platform publishing.
-
-
-
-- **[Unity (2D features)](https://unity.com/)**  
-
-  Leading multi-platform engine with a mature 2D toolset (sprites, tilemaps, 2D physics, animation) used for both 2D and hybrid games.
-
-
-
-- **[Stencyl](https://www.stencyl.com/)**  
-
-  Visual, block-based 2D game creator aimed at beginners and rapid prototyping, with export to desktop and mobile.
-
-
-
-- **[RPG Maker](https://www.rpgmakerweb.com/)**  
-
-  Specialized series of tools for creating 2D role-playing games with map editors, event systems, and character databases—popular for story-driven titles.
-
-
-
-- **[Defold (commercial support / cloud services)](https://defold.com/)**  
-
-  While the engine is open-source, Defold offers official cloud build services, support plans, and hosted tooling for teams.
-
-
-
-- **[Phaser Editor / commercial tooling around Phaser](https://phasereditor2d.com/)**  
-
-  Visual editors and commercial services built on top of the open-source Phaser framework.
-
-
-
-- **[Other commercial 2D engines and middleware](https://unity.com/)**  
-
-  Additional proprietary or dual-license engines and asset-store ecosystems used in professional 2D game production.
+| Platform | Valuation / Company Size | Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Unity (2D features)](https://unity.com/)** | ~$19.19B Market Cap (NYSE: U) / ~$2.03B Annual Revenue | Free (Personal); Paid tiers start at **$2,100/seat/year** ($210/seat/month) for Unity Pro | Free for individuals and small studios with **< $200,000 USD** trailing 12-month revenue or funding; full engine functionality included | Leading multi-platform engine with a mature 2D toolset (sprites, tilemaps, 2D physics, animation) used for both 2D and hybrid games. |
+| **[RPG Maker (Gotcha Gotcha Games / Kadokawa)](https://www.rpgmakerweb.com/)** | ~$1.8B Parent Market Cap (Kadokawa Corp / TYO: 9468; ~$190M Gaming Segment Revenue) | One-time license from **$79.99** (RPG Maker MZ) | **30-day free trial** with full feature and editor access; project saving/editing locks after 30 days and commercial deployment is prohibited during trial | Specialized series of tools for creating 2D role-playing games with map editors, event systems, and character databases—popular for story-driven titles. |
+| **[GameMaker (Opera Gaming)](https://gamemaker.io/)** | ~$1.6B Parent Market Cap (Opera Ltd / NASDAQ: OPRA; acquired for $10M) | Free (Non-Commercial); Commercial Professional license starts at **$99.99 one-time** | **Free forever for non-commercial use**; exports to Desktop, Mobile, Web, and GX.games without watermarks, but selling/monetizing games is prohibited without a commercial license | Long-standing 2D game engine with its own language (GML), strong 2D tooling, and export options for multiple platforms—widely used by indie developers. |
+| **[PlayCanvas (Snap Inc.)](https://playcanvas.com/)** | ~$15B Parent Market Cap (Snap Inc. / NYSE: SNAP; acquired for ~$5M) | Free tier available; Personal plan starts at **$15/user/month** | **Free forever plan** includes **1 GB storage** and unlimited public projects/collaborators; private projects and downloading code for self-hosting require a paid plan | Web-first 3D/2D engine and collaborative online editor with strong WebGL performance; the engine core is open-source while the hosted editor and services are commercial. |
+| **[Cocos Creator](https://www.cocos.com/en/creator)** | $72M Acquisition Valuation (Acquired by SUD; $130M+ total funding raised) | Free core engine; Enterprise support plans require custom quotes | **Free forever with 100% full engine features**, unlimited exports, and 0% royalties; enterprise pricing applies strictly to VIP support contracts, custom modules, and marketplace assets | Component-based game engine (2D & 3D) popular in Asia and globally, with visual editor, JavaScript/TypeScript workflow, and multi-platform publishing. |
+| **[Phaser Editor / Phaser Studio](https://phasereditor2d.com/)** | $45M Series B Venture Funding (Phaser Studio Inc.) | Free mode available; Subscriptions start at **$12/month** (or non-renewing fixed licenses from 1 month) | **Free forever mode** limited to a maximum project size of **200 files**; a **30-day free trial** of the full premium plan is also offered | Visual editors and commercial services built on top of the open-source Phaser framework. |
+| **[Defold (Cloud & Corporate Support)](https://defold.com/)** | Non-Profit Foundation (~$1M+ endowment / King spin-off / corporate sponsorships) | Free core engine; Bronze Corporate Partner tier starts at **€500/month** (€6,000/year) | **Free forever with no revenue or feature limits**; 0% royalties and free cloud-build servers; paid tiers are corporate sponsorships providing dedicated dev hours | Cross-platform lightweight 2D engine offering official cloud build services, corporate partnership tiers, and commercial support agreements. |
+| **[Construct 3 (Scirra Ltd)](https://www.construct.net/)** | ~$5M - $10M Estimated Valuation (~$2M - $4M Est. ARR, bootstrapped UK entity) | Individual subscription starts at **$129.99/year** | **Free forever plan** capped at **50 events** (verified account, or 25 for guests), **2 layers**, 2 special effects, and HTML5 web-only exports with commercial monetization restricted | Browser-based, event-sheet driven 2D game engine popular for rapid development, education, and publishing to web, desktop, and mobile without traditional coding. |
+| **[Stencyl](https://www.stencyl.com/)** | Bootstrapped Indie Entity (<$2M Estimated Annual Revenue) | Free Starter Edition; Indie subscription starts at **$99/year** | **Free forever Starter plan** limited to **Web/HTML5 exports only** with a mandatory Stencyl splash screen/watermark; desktop/mobile publishing is locked | Visual, block-based 2D game creator aimed at beginners and rapid prototyping, with export to desktop and mobile. |
 
 
 
